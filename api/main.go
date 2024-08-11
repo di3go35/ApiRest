@@ -22,6 +22,6 @@ func main(){
 		return
 	}
 	defer client.Disconnect(context.Background())
-
+	log.Println("Conexión exitosa con MongoDB")
 	client.Database(cfg.MongoDBName)
 }
