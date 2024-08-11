@@ -4,12 +4,12 @@ import (
 	"context"
 	"log"
 
-	"github.com/di3gor35/ApiRest/config"
-	"github.com/di3gor35/ApiRest/pkg/database"
+	"github.com/di3go35/ApiRest/config"
+	"github.com/di3go35/ApiRest/pkg/database"
 	//"github.com/labstack/echo/v4"
 )
 
-func main(){
+func main() {
 	cfg, err := config.LoadConfig()
 	if err != nil {
 		log.Fatalf("Error cargando config %v", err)
